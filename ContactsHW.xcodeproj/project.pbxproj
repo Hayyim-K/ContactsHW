@@ -17,6 +17,7 @@
 		6F93EBE325531A9300B947A4 /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93EBE225531A9300B947A4 /* StartTableViewController.swift */; };
 		6F93EBE725532E3300B947A4 /* ContactsInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93EBE625532E3300B947A4 /* ContactsInfoViewController.swift */; };
 		6F93EBEB25533A1500B947A4 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93EBEA25533A1500B947A4 /* SecondTableViewController.swift */; };
+		6F93EBEF25540A8B00B947A4 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93EBEE25540A8A00B947A4 /* CustomHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6F93EBE225531A9300B947A4 /* StartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
 		6F93EBE625532E3300B947A4 /* ContactsInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInfoViewController.swift; sourceTree = "<group>"; };
 		6F93EBEA25533A1500B947A4 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		6F93EBEE25540A8A00B947A4 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		6F93EBBB2552E84D00B947A4 = {
 			isa = PBXGroup;
 			children = (
+				6F93EBEE25540A8A00B947A4 /* CustomHeaderView.swift */,
 				6F93EBE225531A9300B947A4 /* StartTableViewController.swift */,
 				6F93EBEA25533A1500B947A4 /* SecondTableViewController.swift */,
 				6F93EBE625532E3300B947A4 /* ContactsInfoViewController.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F93EBEF25540A8B00B947A4 /* CustomHeaderView.swift in Sources */,
 				6F93EBE02553077100B947A4 /* DataManager.swift in Sources */,
 				6F93EBC82552E84E00B947A4 /* AppDelegate.swift in Sources */,
 				6F93EBCA2552E84E00B947A4 /* SceneDelegate.swift in Sources */,

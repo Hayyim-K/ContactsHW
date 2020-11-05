@@ -46,12 +46,12 @@ class DataManager {
         "+972(2)569-91-23"
     ]
     
-//    var email: Set<String> {
-//        var result = [String]()
-//        for (name, surname) in zip(names, surnames) {
-//            result.append   (name + "_" + surname + "@gmail.com")
-//        }
-//        return Set(result)
-//    }
-
+    //    var email: Set<String> {
+    //        var result = [String]()
+    //        for (name, surname) in zip(names, surnames) {
+    //            result.append   (name + "_" + surname + "@gmail.com")
+    //        }
+    //        return Set(result)
+    //    }
+    
 }

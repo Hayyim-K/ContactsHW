@@ -8,19 +8,16 @@
 import UIKit
 
 class ContactsInfoViewController: UIViewController {
+    var persons: Person!
+    
     @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var eMailLabel: UILabel!
     
-    var persons: Person!
-        
     override func viewDidLoad() {
         super.viewDidLoad()
         
         phoneLabel.text = "Phone: \(persons.phone)"
         eMailLabel.text = "Email: \(persons.email)"
         title = persons.fullName
-      
     }
-    
-
 }

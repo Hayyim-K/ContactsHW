@@ -11,7 +11,7 @@
         <!--Persons List-->
         <scene sceneID="fO4-Pt-i0n">
             <objects>
-                <tableViewController id="edb-ps-tke" customClass="StartTableViewController" customModule="ContactsHW" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Persons List" id="edb-ps-tke" customClass="StartTableViewController" customModule="ContactsHW" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="U4i-bs-1gb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="2162.4000000000001" y="-44.527736131934034"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Persons List-->
         <scene sceneID="2th-gh-dJf">
             <objects>
-                <navigationController id="Ttf-Uu-fNL" sceneMemberID="viewController">
+                <navigationController title="Persons List" id="Ttf-Uu-fNL" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="AL5-YJ-Am6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -111,10 +111,10 @@
             </objects>
             <point key="canvasLocation" x="-249" y="-43"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Persons List-->
         <scene sceneID="KbK-zq-2pG">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="LiD-ob-IOM" sceneMemberID="viewController">
+                <tabBarController title="Persons List" automaticallyAdjustsScrollViewInsets="NO" id="LiD-ob-IOM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="nZQ-Kl-ohV"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vBg-cW-CXR">
@@ -130,16 +130,16 @@
             </objects>
             <point key="canvasLocation" x="615" y="-44"/>
         </scene>
-        <!--Item-->
+        <!--Persons List-->
         <scene sceneID="AeF-cA-vlm">
             <objects>
-                <tableViewController id="TYa-7P-Mlf" customClass="SecondTableViewController" customModule="ContactsHW" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Persons List" id="TYa-7P-Mlf" customClass="SecondTableViewController" customModule="ContactsHW" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LrS-aB-SiH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="headerID" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="secondCellID" textLabel="Idw-5S-HGf" style="IBUITableViewCellStyleDefault" id="2Ln-ug-l36">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="headerID" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="secondCellID" textLabel="Idw-5S-HGf" imageView="etg-tC-8oO" style="IBUITableViewCellStyleDefault" id="2Ln-ug-l36">
                                 <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Ln-ug-l36" id="xRM-TL-zOq">
@@ -147,12 +147,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Idw-5S-HGf">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                            <rect key="frame" x="55" y="0.0" width="304" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="envelope" catalog="system" id="etg-tC-8oO">
+                                            <rect key="frame" x="16.75" y="13" width="22.5" height="16.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -170,6 +174,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="envelope" catalog="system" width="128" height="93"/>
         <image name="person.and.person.fill" catalog="system" width="128" height="80"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">

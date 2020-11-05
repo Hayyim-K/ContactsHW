@@ -6,6 +6,7 @@
 //
 
 struct Person {
+    
     let name: String
     let surname: String
     let phone: String
@@ -16,19 +17,19 @@ struct Person {
     var fullName: String {
         name + " " + surname
     }
-
+    
     static func getData() -> [Person] {
         
         let data = DataManager()
         let names = Array(data.names)
         let surnames = Array(data.surnames)
         let phones = Array(data.phones)
-//        let email = Array(data.email)
+        //        let email = Array(data.email)
         var persons = [Person]()
         for index in 0..<names.count {
             persons.append(Person(name: names[index],
-                                   surname: surnames[index],
-                                   phone: phones[index]))
+                                  surname: surnames[index],
+                                  phone: phones[index]))
         }
         return persons
     }
